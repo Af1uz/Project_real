@@ -29,8 +29,8 @@ const Intro = () => {
   return (
     <div className='admin2' >
       <div className="intro_people">
-      <h1 className='intro_people_title' >Bizning Jamoamiz</h1>
-      <div className="intro_people_cards">
+      <h1 data-aos="fade-up" className='intro_people_title' >Bizning Jamoamiz</h1>
+      <div data-aos="fade-up" className="intro_people_cards">
         <div className="intro_people_card1">
           <img className='peoplesize' src={peopleimg} alt="" />
         </div>
@@ -50,10 +50,10 @@ const Intro = () => {
 
       <div className="intro_karta">
 
-      <div className="intro_karta_left">
+      <div data-aos="fade-up" className="intro_karta_left">
         <img className='karta_style' src={kartas} alt="" />
       </div>
-      <div className="intro_karta_right">
+      <div data-aos="fade-up" className="intro_karta_right">
         <h1 className='intro_right_titles' >Toshkent</h1>
         <p className='intro_right_pp' >Tasviriy san’at va dizayn sohasida innovatsion yechimlar, yuqori sifatli xizmatlar va ijodiy qo‘llab-quvvatlashni taqdim etamiz. Bizning jamoamiz sizning tasviriy ijodiyatingizni yangi bosqichga olib chiqishga tayyor.</p>
         <button className='intro_right_btnn' >Batafsil</button>
@@ -63,7 +63,7 @@ const Intro = () => {
 
       <div className="intro_reklama">
 
-        <div className="box1">
+        <div data-aos="fade-up" className="box1">
           <div className="intro_reklama_cards">
           <h1 className='titles' >Portfoliyamiz</h1>
           <img className='imgs_box' src={rek1} alt="" />
@@ -91,9 +91,9 @@ const Intro = () => {
 
       <div className="intro_sharh">
 
-      <h1>Biz Haqimizda Sharhlar </h1>
+      <h1 data-aos="fade-up">Biz Haqimizda Sharhlar </h1>
 
-      <div className="intro_sharh_box">
+      <div data-aos="fade-up" className="intro_sharh_box">
         <div className="intro_sharh_box_left">
             <img src={sharhs} alt="" />
         </div>
@@ -109,9 +109,9 @@ const Intro = () => {
 
       <div className="intro_faq">
 
-      <h1>FAQ</h1>
+      <h1 data-aos="fade-up" >FAQ</h1>
 
-      <div className="bxc">
+      <div data-aos="fade-up" className="bxc">
         <div className="intro_farq_left">
         <div className="intro_farq_left_box">
           <img src={nm1} alt="" />
@@ -147,8 +147,8 @@ const Intro = () => {
       </div>
 
       <div className="intro_boglanish">
-        <h1 className='bg_title' >Biz bilan bog‘laning</h1>
-        <div className="boxes1">
+        <h1 data-aos="fade-up"  className='bg_title' >Biz bilan bog‘laning</h1>
+        <div data-aos="fade-up" className="boxes1">
           <div className="intro_boglanish_left">
           <form action="">
           <p>Ism</p>
