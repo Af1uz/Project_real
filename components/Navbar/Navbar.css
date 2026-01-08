@@ -1,0 +1,452 @@
+.admin{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 0;
+}
+.navs{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    padding-top: 0;
+}
+.navs2{
+    padding-top: 0;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 80px;
+   border-radius: 0 0 20px 20px;
+    background: rgba(255, 255, 255, 0.25); /* oq + shaffof */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(15px);
+    
+  /* border-radius: 16px; */
+  border: 1px solid rgba(255, 213, 213, 0.4);
+
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.15);
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    padding-left: 20px;
+    text-decoration: none;
+    list-style: none;
+
+    /* Asosiy */
+
+width: 52px;
+height: 28px;
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+color: #1877F2;
+}
+a:hover{
+    padding-left: 20px;
+    text-decoration: none;
+    list-style: none;
+
+    /* Asosiy */
+
+width: 57px;
+height: 28px;
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+color: #1877F2;
+}
+
+.navs_btn{
+/* Text */
+
+width: 120px;
+height: 50px;
+border: none;
+border-radius: 30px;
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #FFFFFF;
+background-color: #1877F2;
+
+}
+.navs_btn:hover{
+    background-color: #003376;
+}
+.nav_img{
+    width: 200px;
+}
+
+.navs_intro{
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+
+}
+.navs_intro2{
+    display: flex;
+    width: 1100px;
+    height: 600px;
+    margin: auto;
+    padding-top: 30px;
+    background-image: url(Fons.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.navs_left{
+    padding-top: 30px;
+}
+.navs_left_title{
+    /* San’at olamiga yo‘l oching */
+
+width: 566px;
+height: 160px;
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 62px;
+line-height: 80px;
+/* or 111% */
+
+color: #FFFFFF;
+
+}
+.navs_left_p{
+    /* Tasviriy san’at, dizayn va ijodiy ishlar uchun yagona platforma. Ilhom oling, o‘rganing va o‘z ijodingizni baham ko‘ring. */
+
+width: 500px;
+height: 96px;
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+/* or 133% */
+
+color: #FFFFFF;
+}
+.navs_left_btn{
+    /* Text */
+
+width: 120px;
+height: 50px;
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #333333;
+background-color: white;
+border-radius: 20px;
+border: 1px solid;
+border-color: #1877F2;
+}
+.navs_left{
+    padding-left: 50px;
+    padding-top: 80px;
+}
+.navs_left_btn:hover{
+    transition: 0.1s;
+    background-color: #1877F2;
+    color: white;
+}
+.navs_lefts_cards2{
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10px;
+    padding-left: 30px;
+
+}
+.navs_lefts_cards{
+    border-radius: 20px;
+    width: 430px;
+    height: 200px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.25); /* oq + shaffof */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(15px);
+  /* border-radius: 16px; */
+  border: 1px solid rgba(255, 213, 213, 0.4);
+
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.15);
+}
+.cardsimg1{
+    width: 120px;
+}
+.cardsimg0{
+    width: 30px;
+}
+.navs_left_card1{
+    width: 300px;
+    height: 140px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 20px;
+
+background: rgba(136, 136, 136, 0.25);
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 2opx;
+line-height: 28px;
+/* or 133% */
+text-align: center;
+
+color: #e8e8e8;
+
+}
+.navs_right{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+.navs2_intro{
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+.boxes{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.boxes_title{
+    /* Kun Yangligi */
+
+width: 356px;
+height: 48px;
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+color: #333333;
+}
+.boxes_btn{
+    /* Frame 1000001932 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+/* padding: 12px 24px; */
+gap: 10px;
+
+margin: 0 auto;
+width: 120px;
+height: 44px;
+
+background: #1877F2;
+border-radius: 999px;
+border: none;
+
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #FFFFFF;
+margin-left: 630px;
+
+}
+.boxes_btn:hover{
+    background-color: #003376;
+}
+.navs2_intro2{
+    width: 1100px;
+    height: 300px;
+    background-image: url(bgimg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 130px;
+    margin-top: 50px;
+
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+color: #FFFFFF;
+
+padding-top: 195px;
+
+}
+.navs2_intro2_img{
+    padding-left: 430px;
+}
+.navs2_title{
+    padding-left: 30px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .navs{
+    width: 100%;
+  }
+  li{
+    display: none;
+  }
+  .navs_intro{
+    width: 100%;
+    flex-wrap: wrap-reverse;
+  }
+  .navs_intro2{
+    width: 90%;
+    flex-wrap: wrap;
+    background-size: auto;
+    border-radius: 20px;
+  }
+  .navs_left{
+    width: 90%;
+  }
+  .navs_left_title{
+    width: 90%;
+    font-weight: 600;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+  }
+  .navs_left_p{
+    width: 90%;
+    text-align: center;
+    padding-bottom: 20px;
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+/* or 133% */
+
+color: #FFFFFF;
+
+  }
+  .navs_right{
+    width: 90%;
+  }
+  .navs_left_btn{
+    width: 90%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .navs_left{
+    padding-top: 0px;
+  }
+  .navs_left_card1{
+    width: 100%;
+    margin-left: 35px;
+  }
+  .navs_lefts_cards{
+    width: 100%;
+    margin-left: 30px;
+    padding-right: 60px;
+  }
+  .navs_lefts_cards2{
+    width: 90%;
+  }
+  .navs_lefts_cards_card1{
+    width: 40%;
+  }
+  .cardsimg1{
+    width: 300%;
+    height: 150px;
+  }
+  .navs_lefts_cards{
+    display: none;
+  }
+  .navs_left_card1{
+    margin-top: 10px;
+  }
+  .navs_right{
+    width: 90%;
+    height: 300px;
+  }
+  .navs2_intro{
+    width: 100%;
+    padding-top: 70px;
+  }
+  .boxes{
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 500px;
+  }
+  .boxes_btn{
+    display: none;
+  }
+  .navs2_intro2{
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    border-radius: 20px;
+    margin: auto;
+  }
+  .navs2_intro2_img{
+    margin: 0;
+    padding: 0;
+    padding-top: 150px;
+    padding-left: 140px;
+  }
+  .boxes{
+    margin: 0;
+    padding: 0;
+  }
+  .navs2_intro2_img{
+      padding-left: 0px;
+  }
+}

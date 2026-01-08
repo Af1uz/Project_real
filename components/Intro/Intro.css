@@ -1,0 +1,491 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.admin2{
+    width: 100%;
+}
+.intro_people{
+    padding-top: 50px;
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+padding-left: 20px;
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 120% */
+
+color: #333333;
+
+
+
+}
+.intro_people_cards{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+.intro_people_title{
+    padding-left: 30px;
+}
+.nxt1{
+    padding-left: 580px;
+}
+.peoplesize1{
+    width: 230px;
+    height: 350px;
+}
+.intro_karta{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    padding-top: 50px;
+    gap: 50px;
+}
+.intro_right_titles{
+    /* Toshkent */
+
+width: 132px;
+height: 48px;
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+color: #333333;
+
+
+}
+.intro_right_pp{
+/* Tasviriy san’at va dizayn sohasida innovatsion yechimlar, yuqori sifatli xizmatlar va ijodiy qo‘llab-quvvatlashni taqdim etamiz. Bizning jamoamiz sizning tasviriy ijodiyatingizni yangi bosqichga olib chiqishga tayyor. */
+
+width: 500px;
+height: 84px;
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+color: #444444;
+
+
+}
+.intro_right_btnn{
+margin-top: 50px;
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+color: #ffffff;
+
+/* Frame 1000001932 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+gap: 10px;
+
+width: 120px;
+height: 56px;
+
+background: #1877F2;
+border-radius: 999px;
+
+/* Inside auto layout */
+border: none;
+
+}
+.karta_style{
+    width: 550px;
+}
+.intro_right_btnn:hover{
+    background-color: #003274;
+    color: white;
+}
+.intro_reklama{
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 70px;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+}
+.imgs_box{
+    width: 350px;
+    height: 200px;
+}
+.imgs_box1{
+    width: 350px;
+    height: 250px;
+}
+.intro_reklama_cards{
+
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height, or 114% */
+
+color: #333333;
+
+}
+.titles{
+    padding-bottom: 10px;
+}
+.intro_sharh{
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 150px;
+    font-family: 'Advent Pro';
+    font-style: normal;
+}
+.intro_sharh_box{
+    display: flex;
+    font-family: 'Advent Pro';
+    font-style: normal;
+    color: #1877F2;
+    gap: 50px;
+}
+.intro_sharh_box_right{
+    width: 650px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 10px;
+
+}
+.qvs{
+    padding-right: 500px;
+    padding-top: 20px;
+}
+.tt{
+    padding-top: 70px;
+}
+.qvs1{
+    padding-left: 500px;
+    padding-top: 100px;
+}
+.nxts{
+    padding-left: 550px;
+    padding-top: 20px;
+}
+.intro_faq{
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: 'Advent Pro';
+    font-style: normal;
+}
+.intro_farq_left_box{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    border: 1px solid;
+    width: 500px;
+    align-items: center;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.bxc{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.intro_farq_right{
+    font-size: 20px;
+    width: 600px;
+    height: 330px;
+    background-color: #1877F2;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 130px;
+}
+.boxes1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 30px;
+}
+.intro_boglanish{
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+    padding-top: 80px;
+    padding-left: 30px;
+    font-family: 'Advent Pro';
+    font-style: normal;
+}
+.inpt{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(243, 239, 239);
+    color: rgb(0, 0, 0);
+
+}
+.inpt:active{
+    border-color: #003274;
+}
+.mseg{
+    width: 500px;
+    height: 120px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(243, 239, 239);
+    color: rgb(0, 0, 0);
+}
+.asesntstyle{
+    width: 500px;
+}
+.intro_boglanish_right{
+    padding-left: 50px;
+}
+.bg_title{
+    padding-bottom: 30px;
+}
+.bg_btn{
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    background-color: #1877F2;
+    border: none;
+    margin-top: 20px;
+    font-family: 'Advent Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
+.bg_btn:hover{
+    background-color: #003274;
+}
+@media screen and (max-width: 600px) {
+
+    .intro_people{
+        width: 100%;
+        
+    }
+    .intro_people_cards{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .peoplesize1{
+        width: 320px;
+    }
+    .nxt1{
+        padding: 0;
+        margin: 0;
+        padding-left: 120px;
+    }
+    .intro_karta{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .intro_karta_left{
+        width: 90%;
+    }
+    .karta_style{
+        width: 300px;
+    }
+    .intro_karta_right{
+        width: 90%;
+    }
+    .intro_right_pp{
+        width: 90%;
+    }
+    .intro_right_btnn{
+        margin-top: 120px;
+    }
+    .intro_reklama{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        padding-top: 30px;
+    }
+    .box1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        padding-left: 20px;
+    }
+    .box2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        padding-left: 20px;
+    }
+    .intro_sharh{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+    .intro_sharh_box_right{
+        width: 60%;
+        margin: 0;
+        padding: 0;
+        margin-left: 20px;
+    }
+    .intro_sharh_box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tt{
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        padding-left: 30px;
+    }
+    .qvs1{
+        margin: 0;
+        padding: 0;
+        padding-left: 250px;
+    }
+    .qvs{
+        padding-left: 10px;
+    }
+    .intro_sharh_box_left{
+        width: 100%;
+        margin-left: 15px;
+    }
+    .nxts{
+        margin: 0;
+        padding: 0;
+        margin-left: 150px;
+        margin-top: 10px;
+    }
+    .intro_faq{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .bxc{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .intro_farq_left_box{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .intro_farq_right{
+        width: 90%;
+        margin: auto;
+    }
+    .intro_boglanish{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 50px;
+    }
+    .boxes1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .intro_boglanish_left{
+        width: 90%;
+    }
+    .inpt{
+        width: 100%;
+    }
+    .mseg{
+        width: 100%;
+    }
+    .bg_btn{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .intro_boglanish_right{
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+    .asesntstyle{
+        width: 100%;
+    }
+    .boxes{
+        margin: 0;
+        padding: 0;
+    }
+    .qvs1{
+        padding-left: 0px;
+    }
+    .navs2_intro2_img{
+      padding-left: 0px;
+  }
+  .nxts{
+    margin-left: 0px;
+  }
+
+.qvs{
+    padding-right: 100px;
+    margin-right: 0px;
+}
+.intro_sharh_box_right{
+    width: 90%;
+}
+.nxts{
+    padding-left: 130px;
+}
+}
