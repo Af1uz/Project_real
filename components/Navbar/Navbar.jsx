@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import '../Navbar/Navbar.css'
-import titlee from './title.png'
+import titleLogo from './title.png';
 import image1 from './cardimg1.png'
 import image2 from './cardimg2.png'
 import image3 from './cardimg3.png'
@@ -27,7 +27,7 @@ useEffect(() => {
       <div className="navs">
         <div className="navs2">
             <div className="nav_title">
-            <img className='nav_img' src={titlee} alt="" />
+            <img className='nav_img' src={titleLogo} alt="" />
         </div>
         <div className="nav_link">
             <li>
