@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import '../Navbar/Navbar.css'
-import titleLogo from './title.png';
+import titleLogo from './Title.png';
 import image1 from './cardimg1.png'
 import image2 from './cardimg2.png'
 import image3 from './cardimg3.png'
